@@ -1,0 +1,43 @@
+.elementor-33 .elementor-element.elementor-element-474c482f {
+    --lottie-container-width: 49%;
+    --lottie-container-max-width: 16%;
+}
+
+.elementor-33 .elementor-element.elementor-element-76048fa1 {
+    text-align: left;
+}
+
+.elementor-33 .elementor-element.elementor-element-76048fa1 .elementor-heading-title {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+#elementor-popup-modal-33 .dialog-message {
+    width: 640px;
+    height: auto;
+}
+
+#elementor-popup-modal-33 {
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#elementor-popup-modal-33 .dialog-close-button {
+    display: flex;
+}
+
+#elementor-popup-modal-33 .dialog-widget-content {
+    box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width:767px) {
+    .elementor-33 .elementor-element.elementor-element-474c482f {
+        --lottie-container-width: 88%;
+        --lottie-container-max-width: 31%;
+    }
+}
